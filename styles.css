@@ -1,0 +1,111 @@
+body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+
+}
+
+header {
+    display: flex;
+    flex: 1;
+    flex-wrap: row wrap;
+    background-color:  blueviolet;
+    padding-left: 30px; 
+    padding-right: 25px;                                            
+    margin: none;
+    height: 10px;
+    width: 100%;
+    align-items: center;
+  
+}
+
+.left {
+   color: darkorange;
+   flex: 3;
+   font-size: 24px;
+}
+
+.links {
+    color: darkorange;
+   flex: 1;
+
+
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    gap: 20px;
+}
+
+li {
+    
+    
+   
+
+}
+
+.intro {
+
+}
+
+.container {
+
+}
+
+.bigtext {
+
+}
+
+.smalltext {
+
+}
+
+.button {
+    
+}
+
+.info {
+    
+}
+
+.facts {
+    
+}
+
+.proof {
+    
+}
+
+.testimony {
+    
+}
+
+.testimonial {
+    
+}
+
+.small {
+    
+}
+
+.action {
+    
+}
+
+.box {
+    
+}
+
+.call {
+    
+}
+
+.there{
+    
+}
+
+footer{
+    
+}
