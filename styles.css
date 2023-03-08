@@ -2,7 +2,8 @@ body {
   display: flex;
   flex-direction: column;
   flex: 1;
-
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: blueviolet;
 }
 
 header {
@@ -23,12 +24,12 @@ header {
    color: darkorange;
    flex: 3;
    font-size: 24px;
+   font-weight: 700;
 }
 
 .links {
     color: darkorange;
-   flex: 1;
-
+    flex: 1;
 
 }
 
@@ -42,24 +43,42 @@ ul {
 li {
     
     
-   
 
 }
 
 .intro {
-
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    margin: 50px;
 }
 
 .container {
-
+    display: flex;
+    flex-direction: column;
+    flex: 2;
 }
 
+.bigimg {
+    flex: 1;
+    align-self: center;
+    flex-shrink: 0;
+    margin-left: 200px;
+    padding: 20px;
+}
+img {
+    height: 200px;
+    width: auto; 
+    flex-shrink: 0;
+    margin: 20px;
+}
 .bigtext {
-
+    font-size: 28px;
+    font-weight: 900;
 }
 
 .smalltext {
-
+    font-size: 10px;
 }
 
 .button {
