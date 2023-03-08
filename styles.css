@@ -4,16 +4,18 @@ body {
   flex: 1;
   font-family: Georgia, 'Times New Roman', Times, serif;
   background-color: blueviolet;
+  margin: none;
+  padding: none;
 }
 
 header {
     display: flex;
     flex: 1;
     flex-wrap: row wrap;
-    background-color:  blueviolet;
+    background-color: darkolivegreen;
     padding-left: 30px; 
     padding-right: 25px;                                            
-    margin: none;
+    margin: -10px;
     height: 10px;
     width: 100%;
     align-items: center;
@@ -57,20 +59,23 @@ li {
     display: flex;
     flex-direction: column;
     flex: 2;
+    gap: 20px;
+
 }
 
 .bigimg {
-    flex: 1;
-    align-self: center;
-    flex-shrink: 0;
+    flex: 0;
     margin-left: 200px;
-    padding: 20px;
+    margin-right: 300px;
+   
 }
 img {
     height: 200px;
     width: auto; 
     flex-shrink: 0;
+    flex: 0;
     margin: 20px;
+    
 }
 .bigtext {
     font-size: 28px;
@@ -78,34 +83,80 @@ img {
 }
 
 .smalltext {
+    margin: 10px;
     font-size: 10px;
+    font-style: italic;
 }
 
 .button {
+    background-color: darkorange;
+    border: none;
+    color: darkolivegreen;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 10px;
+    height: 10px;
+    width: 50px;
+    border-radius: 50%;
     
 }
 
 .info {
+    display: flex;
+    flex: 1;
+    flex-flow: column wrap;
+    background-color: darkolivegreen;
+    width: auto;
+    margin: -10px;
+    padding-left: 50px;
     
 }
 
 .facts {
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: 800;
+    justify-items: center;
+    align-self: center;
     
 }
 
 .proof {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+     
+}
+
+.boxing {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-self: center;
+    padding: 50px;
+    font-size: 12px;
+    
     
 }
 
 .testimony {
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
     
 }
 
 .testimonial {
-    
+    font-size: 36px;
+    font-style: italic;
 }
 
 .small {
+    font-size: 20px;
+    font-style: italic;
+    margin: 15px;
+    align-self: flex-end;
     
 }
 
