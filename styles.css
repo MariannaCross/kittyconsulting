@@ -67,16 +67,16 @@ li {
     flex: 0;
     margin-left: 200px;
     margin-right: 300px;
+    width: 300px;
+    height: 300px;
    
 }
 img {
     height: 200px;
-    width: auto; 
+    width: 200px; 
     flex-shrink: 0;
-    flex: 0;
-    margin: 20px;
-    
 }
+
 .bigtext {
     font-size: 28px;
     font-weight: 900;
@@ -107,75 +107,144 @@ img {
     flex: 1;
     flex-flow: column wrap;
     background-color: darkolivegreen;
-    width: auto;
+    width: 100%;
     margin: -10px;
     padding-left: 50px;
+   
+    
     
 }
 
 .facts {
+    flex: 1;
     margin-top: 25px;
-    font-size: 20px;
+    margin-bottom: 50px;
+    font-size: 25px;
     font-weight: 800;
-    justify-items: center;
-    align-self: center;
+    
     
 }
 
 .proof {
     display: flex;
     flex: 1;
-    flex-direction: row;
-     
+    flex-flow: row wrap;
+    width: 100%;
+  
+    
 }
+.obey   {
+    width: 200px;
+    height: 100px;
+    flex-flow: column wrap;
+    padding: 10px;
+}
+/* I couldn't get the text to stay below the boxes*/
 
 .boxing {
     display: flex;
-    flex-direction: column;
-    justify-items: center;
-    align-self: center;
-    padding: 50px;
+    flex: 1;
+    flex-flow: column wrap; 
+    padding-bottom: 100px;
+    padding-top: 25px;
     font-size: 12px;
-    
-    
+    width: 100px;
+
+   
 }
 
 .testimony {
     display: flex;
+    flex: 1;
     flex-direction: column;
-    margin: 25px;
+    background-color: rgb(165, 106, 221);
+    padding-left: 30px; 
+    padding-right: 25px;                                            
+    margin: -10px;
+    margin-right: 100%;
+    height: 400px;
+    width: 100%
     
 }
 
 .testimonial {
-    font-size: 36px;
+    font-size: 30px;
     font-style: italic;
+    padding: 50px;
 }
 
 .small {
     font-size: 20px;
     font-style: italic;
-    margin: 15px;
+    padding: 25px;
     align-self: flex-end;
     
 }
 
 .action {
+    display: flex;
+    flex: 1;
+    background-color: darkorange;
+    height: 50%;
+    width: 80%;
+    margin: 50px;
+    align-self: center;
     
 }
 
 .box {
-    
+    padding: 20px;
+     
 }
 
 .call {
+    color: blanchedalmond;
+    font-weight: 700;
+    font-size: 30px;
     
 }
 
-.there{
-    
+.there {
+    color: blanchedalmond;
+    font-size: 25px;
+    font-weight: 500;
+ 
+}
+
+.empty {
+    display: flex;
+    flex: 1;
+}
+
+.over {
+   justify-content: center;
+   align-self: center;
+   background-color: darkorange;
+   border: white;
+   border-style: dotted;
+   color: darkolivegreen;
+   padding: 50px;
+   font-weight: 900;
+   font-size: 30px;
+   height: auto;
+   width: auto;
+   border-radius: 50%;
+   
 }
 
 footer{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    background-color: rgb(115, 35, 190);
+    padding-left: 30px; 
+    padding-right: 25px;                                            
+    margin: -10px;
+    height: 10px;
+    width: 100%;
+
+   
     
 }
